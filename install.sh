@@ -38,10 +38,18 @@ touch .sleep
 touch .wakeup
 sudo chmod 777 .sleep
 sudo chmod 777 .wakeup
-echo '/usr/local/bin/blueutil -p 0' >> .sleep
-echo '/usr/local/bin/blueutil -p 1' >> .wakeup
-echo 'networksetup -setairportpower en0 off' >> .sleep
-echo 'networksetup -setairportpower en0 on' >> .wakeup
+cat>.sleep<<EOF
+/usr/local/bin/blueutil -p 0
+networksetup -setairportpower en0 off
+EOF
+cat>.wakeup<<EOF
+/usr/local/bin/blueutil -p 1
+until networksetup -getairportpower en0 | grep On > /dev/null
+do
+	networksetup -setairportpower en0 on
+	sleep 1
+done
+EOF
 sudo pmset schedule cancelall
 #启动服务
 if ps -ef|grep "sleepwatcher"|egrep -v grep >/dev/null
