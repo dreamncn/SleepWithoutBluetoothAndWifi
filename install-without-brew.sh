@@ -3,7 +3,7 @@
 echo  -e "\033[36m [Info] \033[0m蓝牙控制服务安装中..."
 echo  -e "\033[36m [Info] \033[0m我们需要root权限来修改一些配置文件，请授权..."
 #安装blueutil
-sudo cp ./blueutil/2.5.1/bin/blueutil  /usr/local/bin/
+sudo cp ./blueutil/2.7.0/bin/blueutil  /usr/local/bin/
 echo -e "\033[32m [OK] \033[0m蓝牙控制服务安装完成..."
 
 echo  -e "\033[36m [Info] \033[0m睡眠监听服务安装中..."

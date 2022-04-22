@@ -32,8 +32,11 @@ fi
 echo  -e "\033[36m [Info] \033[0m我们需要root权限来修改一些配置文件，请授权..."
 #后续操作
 cd ~
+echo  -e "\033[36m [Info] \033[0m删除空间自带的配置文件..."
 sudo rm -rf .sleep
 sudo rm -rf .wakeup
+echo  -e "\033[36m [Info] \033[0m写入新的配置文件..."
+
 touch .sleep
 touch .wakeup
 sudo chmod 777 .sleep
