@@ -17,6 +17,7 @@
 ```sh
 git clone https://github.com/dreamncn/SleepWithoutBluetoothAndWifi
 cd SleepWithoutBluetoothAndWifi
+chmod +x ./install.sh
 ./install.sh
 ```
 
@@ -25,6 +26,7 @@ cd SleepWithoutBluetoothAndWifi
 ```sh
  git clone https://github.com/dreamncn/SleepWithoutBluetoothAndWifi
  cd SleepWithoutBluetoothAndWifi
+ chmod +x ./install-without-brew.sh
  ./install-without-brew.sh
 ```
 
@@ -32,6 +34,7 @@ cd SleepWithoutBluetoothAndWifi
 
 ```
  cd SleepWithoutBluetoothAndWifi
+ chmod +x ./uninstall.sh
  ./uninstall.sh
 ```
 
