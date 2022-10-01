@@ -1,4 +1,7 @@
-<img src="https://cdn.jsdelivr.net/gh/dreamncn/picBed@master/uPic/2022_04_22_21_22_45_1650633765_1650633765034_z6I9js.png" style="text-align:center;width:200px" >
+
+<p align="center">
+<img src="https://socialify.git.ci/dreamncn/SleepWithoutBluetoothAndWifi/image?description=1&descriptionEditable=Mac%E4%B8%8B%E7%9D%A1%E7%9C%A0%E5%85%B3%E9%97%ADWIFI%E5%92%8C%E8%93%9D%E7%89%99&forks=1&issues=1&language=1&name=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Light">
+</p>
 
 ## 简介
 
