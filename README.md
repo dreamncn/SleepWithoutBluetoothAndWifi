@@ -30,6 +30,14 @@ chmod +x ./install.sh
  ./install-without-brew.sh
 ```
 
+### 授权蓝牙控制器
+
+> 安装完成后您可能需要手动授权才能使用
+>
+> 请解锁后手动勾上sleepwatcher
+
+![image-20220422213555172](https://cdn.jsdelivr.net/gh/dreamncn/picBed@master/uPic/2022_04_22_21_35_55_1650634555_1650634555670_01k29l.png)
+
 ## 卸载
 
 ```
